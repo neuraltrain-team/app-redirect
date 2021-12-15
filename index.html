@@ -10,7 +10,7 @@
 <body>
   <p>Please wait, we're redirecting you. If the redirection does not work, please <a href="#" id="link">click here</a>.</p>
   <script>
-  let url = `unitydl:optimood${window.location.hash}`
+  let url = `unitydl://optimood${window.location.hash}`
   let link = document.getElementById('link')
   link.href = url
   window.location = url
